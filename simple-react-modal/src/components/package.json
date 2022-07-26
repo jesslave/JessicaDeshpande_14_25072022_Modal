@@ -1,0 +1,25 @@
+{
+  "name": "simple-react-modal-jess",
+  "version": "1.0.4",
+  "description": "React-modal",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "build": "rm -rf dist && NODE_ENV=production babel . --out-dir dist --copy-files"
+  },
+  "author": "Jessica Deshpande",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.18.9",
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "babel-loader": "^8.2.5",
+    "webpack": "^5.73.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
